@@ -1650,7 +1650,7 @@ nav ul {
   .answer.carousel .slide{
     width: 320px;
     height: 150px;
-    padding: 25px 25px 0 15px;
+    padding: 10px 9px 0 6px;
     background-color: white;
     box-shadow: 0 0 74px 0 rgba(39, 17, 10, 0.4);
   }
