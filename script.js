@@ -89,3 +89,8 @@ function showAd(){
 closeAdBtn.addEventListener('click', () => {
     myAd.close();
 });
+
+document.querySelector('input[name="phone"]').addEventListener('input', function (event) {
+  let value = event.target.value;
+  event.target.value = value.replace(/\D/g, '');
+});
