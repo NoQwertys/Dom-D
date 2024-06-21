@@ -16,6 +16,12 @@ html, body {
   font-family: "Roboto";
   overflow-x: hidden;
 }
+.ad-dialog {
+  border: none;
+}
+#close-ad-btn {
+  border: none;
+}
 .header {
   width: 96%;
   background-color: rgba(29, 26, 20, 1);

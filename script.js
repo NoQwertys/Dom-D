@@ -76,3 +76,16 @@ const onNext = (carouselId) => {
     const carousel = document.getElementById(carouselId);
     SliderChanger(carousel, 1);
 };
+
+const myAd = document.querySelector('.ad-dialog');
+const closeAdBtn = document.querySelector('#close-ad-btn');
+
+setTimeout(showAd, 5000);
+
+function showAd(){
+    myAd.showModal();
+}
+
+closeAdBtn.addEventListener('click', () => {
+    myAd.close();
+});
