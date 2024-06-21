@@ -521,6 +521,7 @@ nav ul {
   grid-row: span 3;
   align-self: center;
   cursor: pointer;
+  border: none;
   background-image: url(images/video.png);
   background-repeat: no-repeat;
   background-size: cover;
