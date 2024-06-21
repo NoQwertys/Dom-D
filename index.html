@@ -9,22 +9,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
-</head>
+  </head>
 <body>
-  <dialog class="ad-dialog">
-    <div class="cart">
-      <img class="yellow-ellipse" src="vectors/yellow-ellipse.svg" alt="">
-      <p class="cart-text-0">Каркасные дома</p>
-      <button class="cart-batton" id="close-ad-btn">
-        <p class="cart-batton-text">Подробнее</p>
-        <img class="cart-batton-arrow" src="vectors/arrow.svg" alt="">
-      </button>
-      <img class="cart-image" src="images/image_1.png"  alt="">
-    </div>
-  </dialog>
+    <script src="rain.js"></script>
+
+    <dialog class="ad-dialog">
+      <div class="cart">
+        <img class="yellow-ellipse" src="vectors/yellow-ellipse.svg" alt="">
+        <p class="cart-text-0">Каркасные дома</p>
+        <button class="cart-batton" id="close-ad-btn">
+          <p class="cart-batton-text">Подробнее</p>
+          <img class="cart-batton-arrow" src="vectors/arrow.svg" alt="">
+        </button>
+        <img class="cart-image" src="images/image_1.png"  alt="">
+      </div>
+    </dialog>
 
   <div class="header">
-    <button class="burger-btn" id="burger">
+    <button data-tooltip="эта подсказка" class="burger-btn" id="burger">
       <span></span><span></span><span></span>
     </button>
     <nav class="menu">
@@ -108,7 +110,7 @@
       </div>
       <div class="group-6-buttons">
         <div class="column-1">
-          <p class="_6-buttons-text">Демонтаж</p>
+          <p data-tooltip="эта подсказка" class="_6-buttons-text">Демонтаж</p>
         </div>
         <div class="column-1">
           <p class="_6-buttons-text">Бетонные работы</p>
@@ -403,12 +405,12 @@
       <span style="font-weight: bold;">Посмотрите на готовые дома</span> 
       с комплексом отделки и прокладки коммуникаций. </p>
     <div class="conteiner-5">
-      <div class="component-5-img" ></div>
-      <div class="component-5-img" ></div>
-      <div class="component-5-img" ></div>
-      <div class="component-5-img" ></div>
-      <div class="component-5-img" ></div>
-      <div class="component-5-img" ></div>
+      <div class="component-5-img" onclick="toggleFullscreen(event)"></div>
+      <div class="component-5-img" onclick="toggleFullscreen(event)"></div>
+      <div class="component-5-img" onclick="toggleFullscreen(event)"></div>
+      <div class="component-5-img" onclick="toggleFullscreen(event)"></div>
+      <div class="component-5-img" onclick="toggleFullscreen(event)"></div>
+      <div class="component-5-img" onclick="toggleFullscreen(event)"></div>
     </div>
     <div id="carousel-2" class="conteiner-5 carousel">
       <ul class="slides">
@@ -678,3 +680,5 @@
       <img class="arrow-up" src="vectors/arrow-up.svg" alt="">
     </div>
   </div>
+  
+</body>
