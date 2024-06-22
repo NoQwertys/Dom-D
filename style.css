@@ -10,6 +10,7 @@
 
 }
 html, body {
+  font-size: 62.5%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -127,12 +128,12 @@ nav ul {
   margin: 0;;
 }
 .menu-text-bold {
-  font-size: 24px;  
+  font-size: 2.4rem;  
   font-weight: bold;
   cursor: pointer;
 }
 .menu-text {
-  font-size: 24px;
+  font-size: 2.4rem;
   color: rgba(0, 0, 0, 0.5);
 }
 .menu-text:hover
@@ -150,16 +151,16 @@ nav ul {
   white-space: nowrap;
   margin-top: 2px;
   margin-right: 73px;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: rgba(255, 255, 255, 1);
 }
 .DOM-D-text-1 {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 700;
   color: rgba(255, 255, 255, 1);
 }
 .DOM-D-text-2 {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 700;
   color: var(--main);
 }
@@ -169,7 +170,7 @@ nav ul {
 }
 .tg-vb-text-0 {
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   color: var(--main);
   text-align: center;
@@ -197,7 +198,7 @@ nav ul {
  margin-right: 10px;
 }
 .viber-text, .telegram-text {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: rgba(255, 255, 255, 1);
 }
 .group-phone-number-button {
@@ -220,10 +221,10 @@ nav ul {
 .vector-phone {
   width: 18px;
   height: 18px;
-  margin-right: 9px;
+  margin-right: 0.9rem;
 }
 .number {
-  font-size: 18px;
+  font-size: 1.8rem;
   margin-top: 5px;
   margin-bottom: 5px;
   font-weight: 700;
@@ -231,14 +232,14 @@ nav ul {
 }
 .phone-button {
   width: 200px;
-  height: 46px;
+  height: 4.6rem;
   background: var(--gold);
   box-shadow: 0 0 48px 0 rgba(240, 192, 92, 0.54);
   cursor: pointer;
 
   border-color: rgba(32, 32, 32, 0.5);
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 500;
   font-family: "Roboto";
 }
@@ -278,7 +279,7 @@ nav ul {
   height: 80px;
   margin: 0 0 15px;
   text-shadow: 0 0 29px black;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 900;
   color: rgba(255, 255, 255, 1);
 }
@@ -289,7 +290,7 @@ nav ul {
   width: 568px;
   height: 109px;
   margin: 0 0 30px;
-  font-size: 42px;
+  font-size: 4.2rem;
   font-weight: 700;
   color: rgba(255, 255, 255, 1);
   text-shadow: 0 0 29px black;
@@ -298,7 +299,7 @@ nav ul {
   width: 600px;
   height: 85px;
   margin: 0;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   text-shadow: 0 0 25px black;
@@ -318,7 +319,7 @@ nav ul {
   cursor: pointer;
 }
 ._6-buttons-text {
-  font-size: 18px;
+  font-size: 1.8rem;
   margin: 0;
   font-weight: 700;
   color: rgba(30, 8, 1, 1);
@@ -342,7 +343,7 @@ nav ul {
   width: 338px;
   height: 38px;
   margin: 0;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 700;
   color: black;
   align-self: end;
@@ -352,7 +353,7 @@ nav ul {
   width: 316px;
   height: 42px;
   margin: 20px 0 40px 0;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
   color: rgba(30, 8, 1, 1);
   align-self: center;
@@ -383,7 +384,7 @@ nav ul {
 
   border-color: rgba(255, 255, 255, 0.3);
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
   font-family: "Roboto";
 }
@@ -404,7 +405,7 @@ nav ul {
 .conteiner-2-text-0 {
   max-width: 935px;
   height: 112px;
-  font-size: 42px;
+  font-size: 4.2rem;
   margin: 0;
   text-align: center;
   justify-self: center;
@@ -441,7 +442,7 @@ nav ul {
   right: 32px;
 }
 .cart-text-0 {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 900;
   margin: 32px 0 25px 32px;
 }
@@ -458,7 +459,7 @@ nav ul {
 
   border-color: rgba(255, 255, 255, 0.596);
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: "Roboto";
 }
 .cart-batton-text {
@@ -486,7 +487,7 @@ nav ul {
 .conteiner-3-text-0 {
   width: auto;
   height: 56px;
-  font-size: 42px;
+  font-size: 4.2rem;
   font-weight: 700;
   margin: 0;
   text-align: center;
@@ -495,7 +496,7 @@ nav ul {
 .conteiner-3-text-1 {
   width: auto;
   height: 42px;
-  font-size: 36px;
+  font-size: 3.6rem;
   margin: 0 0 50px 0;
   text-align: center;
   justify-self: center;
@@ -523,14 +524,14 @@ nav ul {
 .conteiner-3-text-2 {
   width: 425px;
   height: 100px;
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 700;
   color: rgb(241, 149, 9);
 }
 .conteiner-3-text-3 {
   width: 425px;
   height: 100px;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
 }
@@ -556,12 +557,12 @@ nav ul {
   cursor: pointer;
   border-color: rgba(240, 192, 92, 0.95);
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
   font-family: "Roboto";
 }
 .conteiner-3-button-text {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
   color: black;
   text-align: center;
@@ -583,7 +584,7 @@ nav ul {
 .conteiner-4-text-0 {
   width: 935px;
   height: 90px;
-  font-size: 42px;
+  font-size: 4.2rem;
   margin: 0;
   text-align: center;
   justify-self: center;
@@ -610,12 +611,12 @@ nav ul {
   height: 56px;
 }
 .tips-text-0 {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: bold;
   margin: 0;
 }
 .tips-text-1 {
-  font-size: 18px;
+  font-size: 1.8rem;
   margin: 0;
 }
 /*============================ component-5 ========================*/
@@ -629,7 +630,7 @@ nav ul {
 }
 .component-5-text {
   max-width: 1100px;
-  font-size: 48px;
+  font-size: 4.8rem;
   grid-column: span 3;
   text-align: center;
 }
@@ -671,7 +672,7 @@ nav ul {
   cursor: pointer;
   border-color: rgba(255, 255, 255, 0.596);
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: "Roboto";
 }
 /*============================ component-6 ========================*/
@@ -696,7 +697,7 @@ nav ul {
 }
 .conteiner-6-text {
   max-width: 670px;
-  font-size: 48px;
+  font-size: 4.8rem;
   grid-column: span 3;
   text-align: center;
 }
@@ -711,7 +712,7 @@ nav ul {
   grid-row: span 3;
 }
 .conteiner-6-text-0 {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: white;
   margin: 25px;
 }
@@ -726,7 +727,7 @@ nav ul {
   margin-top: 5px;
 }
 .answer-text {
-  font-size: 18px;
+  font-size: 1.8rem;
   margin: 0;
 }
 /*============================ component-7 ========================*/
@@ -750,13 +751,13 @@ nav ul {
 .achiv-text-0 {
   width: 75px;
   height: 75px;
-  font-size: 64px;
+  font-size: 6.4rem;
   font-weight: bold;
   color: var(--main);
   margin: 0;
 }
 .achiv-text-1 {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: white;
   margin: 0;
   align-content: center;
@@ -782,7 +783,7 @@ nav ul {
   justify-items: center;
 }
 .component-8-text {
-  font-size: 48px;
+  font-size: 4.8rem;
   text-align: center;
   margin: 0;
 }
@@ -813,7 +814,7 @@ nav ul {
   border: none;
   padding: 10px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 1.8rem;
   top: 50%;
 }
 .carousel-btn:active {
@@ -862,7 +863,7 @@ nav ul {
   gap: 20px;
 }
 .conteiner-9-text {
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: bold;
   grid-column: span 2;
   margin: 0;
@@ -875,12 +876,12 @@ nav ul {
   padding: 0 80px;
 }
 .contact-form h2 {
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: bold;
   margin: 45px 0;
 }
 .contact-form p {
-  font-size: 22px;
+  font-size: 2.2rem;
   color: black;
   margin-bottom: 30px;
 }
@@ -916,7 +917,7 @@ nav ul {
   cursor: pointer;
   border-color: rgba(255, 255, 255, 0.596);
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: "Roboto";
   font-weight: bold;
 }
@@ -928,7 +929,7 @@ nav ul {
   padding: 0 80px;
 }
 .touch-text {
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: bold;
   margin: 45px 0;
   align-content: center;
@@ -945,11 +946,11 @@ nav ul {
   height: 20px;
 }
 .touch-cont-text {
-  font-size: 24px;
+  font-size: 2.4rem;
   margin: 0;
 }
 .touch-cont-text-phone {
-  font-size: 28px;
+  font-size: 2.8rem;
   font-weight: bold;
   margin: 0;
 }
@@ -976,7 +977,7 @@ nav ul {
 }
 .touch-cont-text-2 {
   height: 22px;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: var(--main);
   margin: 0;
   margin: 0 0 28px 35px;
@@ -992,7 +993,7 @@ nav ul {
   cursor: pointer;
   border-color: rgba(255, 255, 255, 0.596);
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: "Roboto";
   font-weight: bold;
 }
@@ -1006,7 +1007,7 @@ nav ul {
   grid-template-columns: 1.5fr 2fr 2fr 2fr 2fr;
 }
 .footer-text-bold {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.5);
   margin: 0 0 32px 0;
@@ -1016,7 +1017,7 @@ nav ul {
   color: var(--main);
 }
 .footer-text {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: rgba(255, 255, 255, 0.5);
   margin: 0 0 18px 0;
   cursor: pointer;
@@ -1025,7 +1026,7 @@ nav ul {
   color: var(--main);
 }
 .footer-text-2 {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: rgba(255, 255, 255, 0.5);
   margin: 0 0 18px 0;
 }
@@ -1083,7 +1084,6 @@ nav ul {
     grid-template-columns: 1fr;
   }
   .component-5-text {
-    font-size: 30px;
     width: auto;
     margin: 25px
   }
@@ -1119,6 +1119,9 @@ nav ul {
 
 /*============================ laptop ========================*/
 @media (max-width: 1460px) {
+  html {
+    font-size: 55%;
+  }
   .conteiner-1 {
     width: 1060px;
   }
@@ -1144,7 +1147,6 @@ nav ul {
   .cart-text-0 {
     width: 230px;
     height: 70px;
-    font-size: 28px;
   }
   .cart-image {
     width: 340px;
@@ -1185,12 +1187,6 @@ nav ul {
     width: 440px;
     padding: 0 40px;
   }
-  .touch-cont-text {
-    font-size: 20px;
-  }
-  .contact-form p {
-    font-size: 20px;
-  }
   /* === footer === */
   .footer {
     grid-template-columns: 0.7fr 1fr 1fr 1.5fr;
@@ -1212,6 +1208,9 @@ nav ul {
 /*============================ tablet ========================*/
 @media (max-width: 1100px) {
   /* === header === */
+  html {
+    font-size: 47.5%;
+  }
   .header {
     width: 96%;
     height: 90px;
@@ -1228,14 +1227,10 @@ nav ul {
   }
   .DOM-D-text-0 {
     margin: 10px 0 0 0;
-    font-size: 12px;
   }
   .group-tg-vb-text {
     width: 200px;
     grid-row: span 2;
-  }
-  .tg-vb-text-0 {
-    font-size: 12px;
   }
   .group-vb, .group-tg {
     background-color: rgba(29, 26, 20, 1);
@@ -1311,7 +1306,6 @@ nav ul {
   .cart-text-0 {
     width: 230px;
     height: 70px;
-    font-size: 28px;
   }
   .cart-image {
     width: 340px;
@@ -1472,6 +1466,9 @@ nav ul {
   display: none;
 }
 @media (max-width: 700px) {
+  html {
+    font-size: 42.5%;
+  }
   /* === header === */
   .group-tg-vb-text {
     display: none;
@@ -1513,9 +1510,6 @@ nav ul {
     display:grid;
     justify-self: end;
   }
-  .number {
-    font-size: 14px;
-  }
   .group-tg-vb:nth-child(8) {
     justify-content: center;
     display: grid;
@@ -1526,12 +1520,6 @@ nav ul {
   .menu {
     width: 360px;
     left: -360px;
-  }
-  .menu-text-bold {
-    font-size: 20px;
-  }
-  .menu-text {
-    font-size: 20px;
   }
   /* === component-1 === */
   .conteiner-1-tablet {
@@ -1548,12 +1536,10 @@ nav ul {
   .text-text-text-2 {
     width: 335px;
     grid-column: span 1;
-    font-size: 24px;
     text-align: center;
   }
   .text-text-text-3 {
     height: auto;
-    font-size: 16px;
     grid-row: 4;
     text-align: center;
   }
@@ -1571,7 +1557,6 @@ nav ul {
     display: none;
   }
   .conteiner-2-text-0 {
-    font-size: 30px;
     width: auto;
   }
   .cart-carousel {
@@ -1611,22 +1596,16 @@ nav ul {
     bottom: 0;
     right: 0;
   }
-  .conteiner-3-text-0 {
-    font-size: 30px;
-  }
   .conteiner-3-text-1 {
     width: 325px;
-    font-size: 24px;
   }
   .conteiner-3-text-2 {
     width: 360px;
-    font-size: 24px;
     margin: 0;
     text-align: center;
   }
   .conteiner-3-text-3 {
     width: 284px;
-    font-size: 18px;
     margin: 0;
     text-align: center;
   }
@@ -1648,7 +1627,6 @@ nav ul {
   }
   .conteiner-4-text-0 {
     width: auto;
-    font-size: 30px;
     grid-column: span 1;
   }
   /* === component-6 === */
@@ -1657,7 +1635,6 @@ nav ul {
     grid-template-columns: 1fr;
   }
   .conteiner-6-text {
-    font-size: 30px;
     width: auto;
     grid-column: span 1;
   }
@@ -1706,22 +1683,10 @@ nav ul {
     max-width: 185px;
   }
   /* === component-8 === */
-  .component-8-text {
-    font-size: 30px;
-  }
   .component-8 .carousel-btn {
     padding: 4px;
   }
   /* === component-9 === */
-  .conteiner-9-text {
-    font-size: 30px;
-  }
-  .contact-form h2, .touch-text {
-    font-size: 24px;
-  }
-  .touch-cont-text, .contact-form p {
-    font-size: 16px;
-  }
   .contact-form, .touch {
     width: 290px;
     padding: 0 20px;
@@ -1762,4 +1727,13 @@ nav ul {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 12;
+}
+
+.left:active{
+  transform: perspective(100px) rotateY(-45deg) translateX(-1rem);
+  transition: transform 0.1s;
+}
+.right:active{
+  transform: perspective(100px) rotateY(45deg) translateX(1rem);
+  transition: transform 0.1s;
 }
